@@ -1,0 +1,104 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+  position: relative;
+}
+
+.itemName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  width: 100%;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+/* Completed todo */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* Paragraph Styling */
+.paragraph {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  word-break: break-word;
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  gap: 6px;
+  align-self: flex-end;
+}
+
+/* Delete Button */
+.deleteButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+/* Edit Button */
+.editButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ffc107;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.editButton:hover {
+  background-color: #e0a800;
+}
+
+/* Save Button */
+.saveButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+}
+
+/* Edit Input Field */
+.editInput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  resize: vertical;
+}
